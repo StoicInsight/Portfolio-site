@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* Navigation */
+
+.nav-container {
+    height: 70px;
+    background: #B0A2FD;
+}
+
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.logo h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffff;
+}
+
+.logo h1 span {
+    color: #33312B;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 80px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin-right: 0px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+/* Header */
+
+.header-container {
+    background-color: #9A9A9A;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    color: #ffff;
+}
+
+.hero-span {
+    color: #B0A2FD;
+}
+
+.hero-content {
+    
+}
+
+header p {
+    font-style: thin;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffff;
+    margin-bottom: 40px;
+}
+
+
+header a {
+    text-decoration: none;
+    background-color: #B0A2FD;
+    color:#ffff;
+    padding: 15px 15px;
+    border-radius: 25px 25px;
+}
+
+.wrapper .arrow {
+    position: absolute;
+    left: 710px;
+    top: 700px;
+}
+
+/* Offer Section */
+
+.offer-container {
+    height: calc(80vh - 75px);
+    background-color: #33312B;
+}
+
+.what-offer {
+    height: 75px;
+    background: #B0A2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-offer h1 {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.offer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-top h2 {
+    color: #ffff;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
