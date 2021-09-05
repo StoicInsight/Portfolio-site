@@ -144,4 +144,15 @@ header a {
     margin-left: 90px;
     font-size: 20px;
 }
+/* Skills section */ 
 
+.icon-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.main-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
