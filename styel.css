@@ -12,6 +12,8 @@ body {
 .nav-container {
     height: 70px;
     background: #B0A2FD;
+    position: fixed;
+    width: 100vw;
 }
 
 .wrapper {
@@ -63,7 +65,7 @@ nav ul {
 
 .header-container {
     background-color: #9A9A9A;
-    height: calc(100vh - 72px);
+    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -116,7 +118,7 @@ header a {
 /* Offer Section */
 
 .offer-container {
-    height: calc(80vh - 75px);
+    height: 80vh;
     background-color: #33312B;
 }
 
@@ -147,12 +149,34 @@ header a {
 /* Skills section */ 
 
 .icon-container img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .main-icon-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 550px;
+}
+
+.icon-container {
+    width: 305px !important ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container h2 {
+    color: #ffff;
+    font-weight: bold;
+}
+
+/* About */
+
+.about-container {
+    height: 80vh;
+    background-color: #33312B;
 }
